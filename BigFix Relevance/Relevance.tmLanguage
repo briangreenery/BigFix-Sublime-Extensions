@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>name</key>
+	<string>BigFix Relevance</string>
+	<key>patterns</key>
+	<array>
+		<dict>
+			<key>begin</key>
+			<string>"</string>
+			<key>end</key>
+			<string>"</string>
+			<key>name</key>
+			<string>string.quoted.double.bigfix.relevance</string>
+			<key>patterns</key>
+			<array>
+				<dict>
+					<key>match</key>
+					<string>%[0-9a-fA-F][0-9a-fA-F]</string>
+					<key>name</key>
+					<string>constant.character.escape.bigfix.relevance</string>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>begin</key>
+			<string>/\*</string>
+			<key>end</key>
+			<string>\*/</string>
+			<key>name</key>
+			<string>comment.block.bigfix.relevance</string>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>[0-9]+</string>
+			<key>name</key>
+			<string>constant.numeric.bigfix.relevance</string>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>\!=|=|&amp;|\*|\+|,|-|/|;|&lt;|&lt;=|&gt;|&gt;=</string>
+			<key>name</key>
+			<string>keyword.operator.bigfix.relevance</string>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>(?i:\b(if|then|else)\b)</string>
+			<key>name</key>
+			<string>keyword.control.bigfix.relevance</string>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>(?i:\b(and|as|contains|does\s+not\s+(contain|end\s+with|equal|start\s+with)|else|ends\s+with|equals|exists?(\s+no)?|is(\s+(not\s+)?(contained\s+by|equal\s+to|greater\s+than(\s+or\s+equal\s+to)?|less\s+than(\s+or\s+equal\s+to)?))?|it|items?|mod|not|number|of|or|starts\s+with|there\s+((do|does)\s+not\s+exist|exists?(\s+no)?)|whose)\b)</string>
+			<key>name</key>
+			<string>keyword.operator.bigfix.relevance</string>
+		</dict>
+	</array>
+	<key>scopeName</key>
+	<string>text.bigfix.relevance</string>
+	<key>uuid</key>
+	<string>837169D6-4645-43a1-93BB-DFDFF2FA5D0F</string>
+</dict>
+</plist>
