@@ -4,9 +4,9 @@ These are TextMate compatible syntax extensions meant for use in the Sublime Tex
 
 These syntax extensions are for the BigFix Relevance & ActionScript languages
 
-Copy the folders "BigFix ActionScript" and "BigFix Relevance" to the Sublime Text packages folder. This will cause these BigFix syntaxes to appear as options in the "View -> Syntax" menu in Sublime Text.
+Copy the folders "BigFix ActionScript" and "BigFix Relevance" to the Sublime Text packages folder. They will appear in the "View -> Syntax" menu in Sublime Text.
 
-
+---
 
 Download Sublime Text here:  http://www.sublimetext.com/
 
